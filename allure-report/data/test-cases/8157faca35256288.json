@@ -1,0 +1,126 @@
+{
+  "uid" : "8157faca35256288",
+  "name" : "TC_1.1:Try to create an account with already registered user",
+  "fullName" : "Register a new user.TC_1.1:Try to create an account with already registered user",
+  "historyId" : "b3fc805b405bf950cc39e538b58f5985",
+  "time" : {
+    "start" : 1610895971457,
+    "stop" : 1610896006534,
+    "duration" : 35077
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify landing on create account page",
+      "time" : {
+        "start" : 1610895997797,
+        "stop" : 1610895997797,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter email address",
+      "time" : {
+        "start" : 1610895998065,
+        "stop" : 1610895998065,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on submit",
+      "time" : {
+        "start" : 1610895998265,
+        "stop" : 1610895998265,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate Email is already registered with application",
+      "time" : {
+        "start" : 1610895998427,
+        "stop" : 1610895998427,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_1.1:Try to create an account with already registered user"
+  }, {
+    "name" : "package",
+    "value" : "Register a new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8157faca35256288.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

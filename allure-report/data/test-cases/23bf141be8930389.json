@@ -1,0 +1,405 @@
+{
+  "uid" : "23bf141be8930389",
+  "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
+  "fullName" : "Register a new user.TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
+  "historyId" : "8e025beeec09d9b316a6155e2a18aef6",
+  "time" : {
+    "start" : 1610897605705,
+    "stop" : 1610897627230,
+    "duration" : 21525
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify landing on create account page",
+      "time" : {
+        "start" : 1610897609090,
+        "stop" : 1610897609090,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Login with registered Email:Rbkabcd129@gmail.com Password:abc@123",
+      "time" : {
+        "start" : 1610897609271,
+        "stop" : 1610897609271,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on sign in",
+      "time" : {
+        "start" : 1610897609586,
+        "stop" : 1610897609586,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on the login page",
+      "time" : {
+        "start" : 1610897611164,
+        "stop" : 1610897611164,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate userName post login",
+      "time" : {
+        "start" : 1610897611230,
+        "stop" : 1610897611230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on product details page",
+      "time" : {
+        "start" : 1610897616087,
+        "stop" : 1610897616087,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter product details",
+      "time" : {
+        "start" : 1610897616103,
+        "stop" : 1610897616103,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on add to cart",
+      "time" : {
+        "start" : 1610897616571,
+        "stop" : 1610897616571,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Product is successfully added to cart",
+      "time" : {
+        "start" : 1610897617695,
+        "stop" : 1610897617695,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click proceed to check out link on - AddToCart Modal Page",
+      "time" : {
+        "start" : 1610897617695,
+        "stop" : 1610897617695,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on shopping-cart summary page",
+      "time" : {
+        "start" : 1610897619677,
+        "stop" : 1610897619677,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click proceed to check out link on - ShoppingCart summary page",
+      "time" : {
+        "start" : 1610897619768,
+        "stop" : 1610897619768,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on address page",
+      "time" : {
+        "start" : 1610897621745,
+        "stop" : 1610897621745,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click proceed to check out link on - Address page",
+      "time" : {
+        "start" : 1610897621815,
+        "stop" : 1610897621815,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on shipping page",
+      "time" : {
+        "start" : 1610897623244,
+        "stop" : 1610897623244,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Tick \"Terms of service\" check box",
+      "time" : {
+        "start" : 1610897623343,
+        "stop" : 1610897623343,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click proceed to check out link on - Shipping page",
+      "time" : {
+        "start" : 1610897623428,
+        "stop" : 1610897623428,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on payments page",
+      "time" : {
+        "start" : 1610897625185,
+        "stop" : 1610897625185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate product details on payments page",
+      "time" : {
+        "start" : 1610897625228,
+        "stop" : 1610897625228,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Logout",
+      "time" : {
+        "start" : 1610897625792,
+        "stop" : 1610897625792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d7125e76f4e1b1de",
+      "name" : "Screenshot",
+      "source" : "d7125e76f4e1b1de.png",
+      "type" : "image/png",
+      "size" : 33409
+    }, {
+      "uid" : "b4565703e21b7524",
+      "name" : "PaymentsPageScreenShot",
+      "source" : "b4565703e21b7524.null",
+      "type" : "img/png",
+      "size" : 33409
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page"
+  }, {
+    "name" : "package",
+    "value" : "Register a new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da722ea6544ea384",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610896504289,
+        "stop" : 1610896524026,
+        "duration" : 19737
+      }
+    }, {
+      "uid" : "f613f37403e6591e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610896196584,
+        "stop" : 1610896217213,
+        "duration" : 20629
+      }
+    }, {
+      "uid" : "97a130c7f3b2074f",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//h1[contains(text(), \"Authentication\")]`) to have text\n                \n                Expected: \"AUTHENTICATION\"\n                Received: undefined",
+      "time" : {
+        "start" : 1610896085293,
+        "stop" : 1610896109737,
+        "duration" : 24444
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23bf141be8930389.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

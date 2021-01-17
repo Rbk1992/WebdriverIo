@@ -1,0 +1,41 @@
+[ {
+  "uid" : "eb448f833506f2f0",
+  "name" : "TC_1.1:Try to create an account with already registered user",
+  "time" : {
+    "start" : 1610897574427,
+    "stop" : 1610897583780,
+    "duration" : 9353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18ab9dbd1d8a8db0",
+  "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
+  "time" : {
+    "start" : 1610897583780,
+    "stop" : 1610897594617,
+    "duration" : 10837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7277c0d019d70204",
+  "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
+  "time" : {
+    "start" : 1610897594617,
+    "stop" : 1610897605704,
+    "duration" : 11087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23bf141be8930389",
+  "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
+  "time" : {
+    "start" : 1610897605705,
+    "stop" : 1610897627230,
+    "duration" : 21525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

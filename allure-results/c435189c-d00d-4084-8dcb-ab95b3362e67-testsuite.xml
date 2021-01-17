@@ -1,0 +1,328 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610897574426' stop='1610897627231'>
+    <name>Register a new user</name>
+    <title>Register a new user</title>
+    <test-cases>
+        <test-case start='1610897574427' status='passed' stop='1610897583780'>
+            <name>TC_1.1:Try to create an account with already registered user</name>
+            <title>TC_1.1:Try to create an account with already registered user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1610897582447' status='passed' stop='1610897582447'>
+                    <name>Verify landing on create account page</name>
+                    <title>Verify landing on create account page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897582752' status='passed' stop='1610897582752'>
+                    <name>Enter email address</name>
+                    <title>Enter email address</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897582968' status='passed' stop='1610897582968'>
+                    <name>Click on submit</name>
+                    <title>Click on submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897583149' status='passed' stop='1610897583149'>
+                    <name>Validate Email is already registered with application</name>
+                    <title>Validate Email is already registered with application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610897583780' status='passed' stop='1610897594617'>
+            <name>TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered</name>
+            <title>TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1610897586837' status='passed' stop='1610897586837'>
+                    <name>Create An Account</name>
+                    <title>Create An Account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897586838' status='passed' stop='1610897586838'>
+                    <name>Enter email address</name>
+                    <title>Enter email address</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897587023' status='passed' stop='1610897587023'>
+                    <name>Click on submit</name>
+                    <title>Click on submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897587113' status='passed' stop='1610897587113'>
+                    <name>Verify landing on registration page</name>
+                    <title>Verify landing on registration page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897588810' status='passed' stop='1610897588810'>
+                    <name>Fill Personal Information</name>
+                    <title>Fill Personal Information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897590782' status='passed' stop='1610897590782'>
+                    <name>Click on Register Button</name>
+                    <title>Click on Register Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897592402' status='passed' stop='1610897592402'>
+                    <name>Verify landing on the login page</name>
+                    <title>Verify landing on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897592501' status='passed' stop='1610897592501'>
+                    <name>Verify links on the login page</name>
+                    <title>Verify links on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897592637' status='passed' stop='1610897592637'>
+                    <name>Validate userName post login</name>
+                    <title>Validate userName post login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897592676' status='passed' stop='1610897592676'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610897594617' status='passed' stop='1610897605704'>
+            <name>TC_1.3:Register user to the website and validate user name on landing screen</name>
+            <title>TC_1.3:Register user to the website and validate user name on landing screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1610897597173' status='passed' stop='1610897597173'>
+                    <name>Create An Account</name>
+                    <title>Create An Account</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897597173' status='passed' stop='1610897597173'>
+                    <name>Enter email address</name>
+                    <title>Enter email address</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897597348' status='passed' stop='1610897597348'>
+                    <name>Click on submit</name>
+                    <title>Click on submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897597439' status='passed' stop='1610897597439'>
+                    <name>Verify landing on registration page</name>
+                    <title>Verify landing on registration page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897599178' status='passed' stop='1610897599178'>
+                    <name>Fill Personal Information</name>
+                    <title>Fill Personal Information</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897601943' status='passed' stop='1610897601943'>
+                    <name>Click on Register Button</name>
+                    <title>Click on Register Button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897603424' status='passed' stop='1610897603424'>
+                    <name>Verify landing on the login page</name>
+                    <title>Verify landing on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897603502' status='passed' stop='1610897603502'>
+                    <name>Validate userName post login</name>
+                    <title>Validate userName post login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897603540' status='passed' stop='1610897603540'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610897605705' status='passed' stop='1610897627230'>
+            <name>TC_1.4:Add product to the cart using already registered user and validate product details on payment page</name>
+            <title>TC_1.4:Add product to the cart using already registered user and validate product details on payment page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1610897609090' status='passed' stop='1610897609090'>
+                    <name>Verify landing on create account page</name>
+                    <title>Verify landing on create account page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897609271' status='passed' stop='1610897609271'>
+                    <name>Login with registered Email:Rbkabcd129@gmail.com Password:abc@123</name>
+                    <title>Login with registered Email:Rbkabcd129@gmail.com Password:abc@123</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897609586' status='passed' stop='1610897609586'>
+                    <name>Click on sign in</name>
+                    <title>Click on sign in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897611164' status='passed' stop='1610897611164'>
+                    <name>Verify landing on the login page</name>
+                    <title>Verify landing on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897611230' status='passed' stop='1610897611230'>
+                    <name>Validate userName post login</name>
+                    <title>Validate userName post login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897616087' status='passed' stop='1610897616087'>
+                    <name>Verify landing on product details page</name>
+                    <title>Verify landing on product details page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897616103' status='passed' stop='1610897616103'>
+                    <name>Enter product details</name>
+                    <title>Enter product details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897616571' status='passed' stop='1610897616571'>
+                    <name>Click on add to cart</name>
+                    <title>Click on add to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897617695' status='passed' stop='1610897617695'>
+                    <name>Product is successfully added to cart</name>
+                    <title>Product is successfully added to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897617695' status='passed' stop='1610897617695'>
+                    <name>Click proceed to check out link on - AddToCart Modal Page</name>
+                    <title>Click proceed to check out link on - AddToCart Modal Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897619677' status='passed' stop='1610897619677'>
+                    <name>Verify landing on shopping-cart summary page</name>
+                    <title>Verify landing on shopping-cart summary page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897619768' status='passed' stop='1610897619768'>
+                    <name>Click proceed to check out link on - ShoppingCart summary page</name>
+                    <title>Click proceed to check out link on - ShoppingCart summary page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897621745' status='passed' stop='1610897621745'>
+                    <name>Verify landing on address page</name>
+                    <title>Verify landing on address page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897621815' status='passed' stop='1610897621815'>
+                    <name>Click proceed to check out link on - Address page</name>
+                    <title>Click proceed to check out link on - Address page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897623244' status='passed' stop='1610897623244'>
+                    <name>Verify landing on shipping page</name>
+                    <title>Verify landing on shipping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897623343' status='passed' stop='1610897623343'>
+                    <name>Tick "Terms of service" check box</name>
+                    <title>Tick "Terms of service" check box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897623428' status='passed' stop='1610897623428'>
+                    <name>Click proceed to check out link on - Shipping page</name>
+                    <title>Click proceed to check out link on - Shipping page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897625185' status='passed' stop='1610897625185'>
+                    <name>Verify landing on payments page</name>
+                    <title>Verify landing on payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897625228' status='passed' stop='1610897625228'>
+                    <name>Validate product details on payments page</name>
+                    <title>Validate product details on payments page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1610897625792' status='passed' stop='1610897625792'>
+                    <name>Logout</name>
+                    <title>Logout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='5cd75c03-d9f4-433b-b904-75329376741b-attachment.png' type='image/png' size='33409'/>
+                <attachment title='PaymentsPageScreenShot' source='25bc2527-9aa7-4154-9ec8-b22cdd4f9824-attachment.null' type='img/png' size='33409'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

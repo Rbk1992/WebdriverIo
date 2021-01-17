@@ -1,0 +1,100 @@
+{
+  "uid" : "238f89def905c071",
+  "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
+  "fullName" : "Register a new user.TC_1.3:Register user to the website and validate user name on landing screen",
+  "historyId" : "4afac16ffd6bde606a526556a1cd4532",
+  "time" : {
+    "start" : 1610896066545,
+    "stop" : 1610896085292,
+    "duration" : 18747
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"#email_create\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"#email_create\" because element wasn't found\n                    at Object.implicitWait [as default] (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:26:19)\n                    at Element.runCommandWithHooks (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.setValue (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at CreateAnAccountPage.enterEmailAddress (D:\\Rakshita_WebDriverIo\\webdriverIo\\pageobjects\\/login.page.js:59:24)\n                    at CreateAnAccountPage.registerUserToWebsite (D:\\Rakshita_WebDriverIo\\webdriverIo\\pageobjects\\/login.page.js:51:10)\n                    at Context.<anonymous> (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\/Register.js:41:31)\n                    at Context.executeSync (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call setValue on element with selector \"#email_create\" because element wasn't found",
+    "statusTrace" : "Error: Can't call setValue on element with selector \"#email_create\" because element wasn't found\n                    at Object.implicitWait [as default] (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:26:19)\n                    at Element.runCommandWithHooks (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.setValue (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at CreateAnAccountPage.enterEmailAddress (D:\\Rakshita_WebDriverIo\\webdriverIo\\pageobjects\\/login.page.js:59:24)\n                    at CreateAnAccountPage.registerUserToWebsite (D:\\Rakshita_WebDriverIo\\webdriverIo\\pageobjects\\/login.page.js:51:10)\n                    at Context.<anonymous> (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\/Register.js:41:31)\n                    at Context.executeSync (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+    "steps" : [ {
+      "name" : "Create An Account",
+      "time" : {
+        "start" : 1610896075216,
+        "stop" : 1610896075216,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter email address",
+      "time" : {
+        "start" : 1610896075216,
+        "stop" : 1610896075216,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_1.3:Register user to the website and validate user name on landing screen"
+  }, {
+    "name" : "package",
+    "value" : "Register a new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "238f89def905c071.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

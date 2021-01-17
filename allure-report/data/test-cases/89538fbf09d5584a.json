@@ -1,0 +1,220 @@
+{
+  "uid" : "89538fbf09d5584a",
+  "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
+  "fullName" : "Register a new user.TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
+  "historyId" : "b9dba7da7c6269e5e7f18f665e957a65",
+  "time" : {
+    "start" : 1610896006534,
+    "stop" : 1610896066544,
+    "duration" : 60010
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Register a new user TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\Register.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Register a new user TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\Register.js)\n                    at Test.Runnable._timeoutError (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\mocha\\lib\\runnable.js:432:10)\n                    at Timeout.<anonymous> (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\mocha\\lib\\runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:554:17)\n                    at processTimers (internal/timers.js:497:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Register a new user TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\Register.js)",
+    "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Register a new user TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (D:\\Rakshita_WebDriverIo\\webdriverIo\\test\\specs\\Register.js)\n                    at Test.Runnable._timeoutError (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\mocha\\lib\\runnable.js:432:10)\n                    at Timeout.<anonymous> (D:\\Rakshita_WebDriverIo\\webdriverIo\\node_modules\\mocha\\lib\\runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:554:17)\n                    at processTimers (internal/timers.js:497:7)",
+    "steps" : [ {
+      "name" : "Create An Account",
+      "time" : {
+        "start" : 1610896026462,
+        "stop" : 1610896026462,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter email address",
+      "time" : {
+        "start" : 1610896026464,
+        "stop" : 1610896026464,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on submit",
+      "time" : {
+        "start" : 1610896026662,
+        "stop" : 1610896026662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on registration page",
+      "time" : {
+        "start" : 1610896026789,
+        "stop" : 1610896026789,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fill Personal Information",
+      "time" : {
+        "start" : 1610896034988,
+        "stop" : 1610896034988,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Register Button",
+      "time" : {
+        "start" : 1610896036978,
+        "stop" : 1610896036978,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify landing on the login page",
+      "time" : {
+        "start" : 1610896049811,
+        "stop" : 1610896049811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify links on the login page",
+      "time" : {
+        "start" : 1610896049909,
+        "stop" : 1610896049909,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Validate userName post login",
+      "time" : {
+        "start" : 1610896050046,
+        "stop" : 1610896050046,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Logout",
+      "time" : {
+        "start" : 1610896050099,
+        "stop" : 1610896050099,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered"
+  }, {
+    "name" : "package",
+    "value" : "Register a new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89538fbf09d5584a.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

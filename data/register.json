@@ -1,0 +1,75 @@
+{
+    "TC_1.1": {
+        "registeredEmail": "abc@gmail.com",
+        "errMsg": "An account using this email address has already been registered. Please enter a valid password or request a new one."
+    },
+    "TC_1.2": {
+        "userDetails": {
+            "userTitle": "Mr.",
+            "firstName": "Abin",
+            "lastName": "Mishra",
+            "password": "abc@123",
+            "day": "1 ",
+            "month": "12",
+            "year": "1992",
+            "newsLetter": "N",
+            "receiveSpclOffer": "N",
+            "address": "no 23 jigani",
+            "city": "Bangalore",
+            "state": "Texas",
+            "postalCode": "58510",
+            "country": "United States",
+            "mobilePhone": "123543461",
+            "aliasAddress" : "no 23 jigani"
+        },
+        "myAccountLinks":[
+            "ORDER HISTORY AND DETAILS",
+            "MY CREDIT SLIPS",
+            "MY ADDRESSES",
+            "MY PERSONAL INFORMATION",
+            "MY WISHLISTS"
+          ]
+    },
+    "TC_1.3": {
+        "userDetails": {
+            "userTitle": "Mrs.",
+            "firstName": "Abhilasha",
+            "lastName": "Mishra",
+            "password": "abc@123",
+            "day": "1",
+            "month": "12",
+            "year": "1994",
+            "newsLetter": "N",
+            "receiveSpclOffer": "N",
+            "addFirstName": "Abhilashaa",
+            "addLastName": "Mishraaaaa",
+            "company": "HCL",
+            "address": "no 23 jigani",
+            "city": "Bangalore",
+            "state": "Texas",
+            "postalCode": "58511",
+            "country": "United States",
+            "additionalInfo" : "Additional Information Additional Information",
+            "homePhone" : "1678789789",
+            "mobilePhone": "123543461",
+            "aliasAddress" : "no 24 jigani"
+        }
+    },
+    "TC_1.4": {
+        "userDetails": {
+            "email": "Rbkabcd129@gmail.com",
+            "password": "abc@123",
+            "firstName": "Abin",
+            "lastName": "Mishra"
+        },
+        "productDetails": {
+            "product" : "Faded Short Sleeve T-shirts",
+            "quantity": "2",
+            "size" : "M",
+            "color" : "Blue",
+            "prodDescription" : "Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!",
+            "prodModel" : "Model demo_1",
+            "prodCondition" : "New"
+        }
+    }
+}
