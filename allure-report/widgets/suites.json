@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "8db04eaff1846f907f06d8fe254b63f3",
-    "name" : "Register a new user",
+    "uid" : "8cb376cc622e1feb7adef46a897b13b3",
+    "name" : "Your Logo Application",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

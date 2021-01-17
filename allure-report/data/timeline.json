@@ -4,261 +4,53 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "TC_1.1:Try to create an account with already registered user",
-      "uid" : "9fa1eca857522d90",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896149938,
-        "stop" : 1610896168886,
-        "duration" : 18948
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.1:Try to create an account with already registered user",
-      "uid" : "eb448f833506f2f0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610897574427,
-        "stop" : 1610897583780,
-        "duration" : 9353
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "a697d5a96a366708",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896476660,
-        "stop" : 1610896491209,
-        "duration" : 14549
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "89538fbf09d5584a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1610896006534,
-        "stop" : 1610896066544,
-        "duration" : 60010
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
       "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
-      "uid" : "97a130c7f3b2074f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1610896085293,
-        "stop" : 1610896109737,
-        "duration" : 24444
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.1:Try to create an account with already registered user",
-      "uid" : "4e5fdbebaf482168",
+      "uid" : "a5218d05e32fcb2f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1610896468570,
-        "stop" : 1610896476660,
-        "duration" : 8090
+        "start" : 1610903227646,
+        "stop" : 1610903262648,
+        "duration" : 35002
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.141" ]
     }, {
       "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
-      "uid" : "238f89def905c071",
+      "uid" : "8e9d059fb4a3b977",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1610896066545,
-        "stop" : 1610896085292,
-        "duration" : 18747
+        "start" : 1610903203708,
+        "stop" : 1610903227645,
+        "duration" : 23937
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.141" ]
     }, {
       "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "18ab9dbd1d8a8db0",
+      "uid" : "f22208c5e053d14a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1610897583780,
-        "stop" : 1610897594617,
-        "duration" : 10837
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "cf887f17a033565b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1610894347249,
-        "stop" : 1610894366844,
-        "duration" : 19595
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
-      "uid" : "f613f37403e6591e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896196584,
-        "stop" : 1610896217213,
-        "duration" : 20629
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
-      "uid" : "23bf141be8930389",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610897605705,
-        "stop" : 1610897627230,
-        "duration" : 21525
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "c1e07580e4dd3b21",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1610893915971,
-        "stop" : 1610893946734,
-        "duration" : 30763
+        "start" : 1610903186548,
+        "stop" : 1610903203707,
+        "duration" : 17159
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.141" ]
     }, {
       "name" : "TC_1.1:Try to create an account with already registered user",
-      "uid" : "8157faca35256288",
+      "uid" : "682df6cb74c72817",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1610895971457,
-        "stop" : 1610896006534,
-        "duration" : 35077
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "3405ffe08d874621",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1610894210207,
-        "stop" : 1610894228864,
-        "duration" : 18657
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
-      "uid" : "7277c0d019d70204",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610897594617,
-        "stop" : 1610897605704,
-        "duration" : 11087
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "8d33486a15ca1499",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1610893503352,
-        "stop" : 1610893521419,
-        "duration" : 18067
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
-      "uid" : "da722ea6544ea384",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896504289,
-        "stop" : 1610896524026,
-        "duration" : 19737
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
-      "uid" : "faa70875d1bee665",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896183219,
-        "stop" : 1610896196584,
-        "duration" : 13365
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
-      "uid" : "f41d0fa5000cadfb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896491209,
-        "stop" : 1610896504289,
-        "duration" : 13080
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.141" ]
-    }, {
-      "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
-      "uid" : "f1e14c9e3772441d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610896168886,
-        "stop" : 1610896183219,
-        "duration" : 14333
+        "start" : 1610903173153,
+        "stop" : 1610903186547,
+        "duration" : 13394
       },
       "flaky" : false,
       "newFailed" : false,

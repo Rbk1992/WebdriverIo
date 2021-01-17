@@ -1,40 +1,40 @@
 [ {
-  "uid" : "23bf141be8930389",
-  "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
-  "time" : {
-    "start" : 1610897605705,
-    "stop" : 1610897627230,
-    "duration" : 21525
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb448f833506f2f0",
-  "name" : "TC_1.1:Try to create an account with already registered user",
-  "time" : {
-    "start" : 1610897574427,
-    "stop" : 1610897583780,
-    "duration" : 9353
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7277c0d019d70204",
+  "uid" : "8e9d059fb4a3b977",
   "name" : "TC_1.3:Register user to the website and validate user name on landing screen",
   "time" : {
-    "start" : 1610897594617,
-    "stop" : 1610897605704,
-    "duration" : 11087
+    "start" : 1610903203708,
+    "stop" : 1610903227645,
+    "duration" : 23937
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18ab9dbd1d8a8db0",
+  "uid" : "682df6cb74c72817",
+  "name" : "TC_1.1:Try to create an account with already registered user",
+  "time" : {
+    "start" : 1610903173153,
+    "stop" : 1610903186547,
+    "duration" : 13394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5218d05e32fcb2f",
+  "name" : "TC_1.4:Add product to the cart using already registered user and validate product details on payment page",
+  "time" : {
+    "start" : 1610903227646,
+    "stop" : 1610903262648,
+    "duration" : 35002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f22208c5e053d14a",
   "name" : "TC_1.2:Register user to the website and validate user name on landing screen: Only mandatory fields are entered",
   "time" : {
-    "start" : 1610897583780,
-    "stop" : 1610897594617,
-    "duration" : 10837
+    "start" : 1610903186548,
+    "stop" : 1610903203707,
+    "duration" : 17159
   },
   "status" : "passed",
   "severity" : "normal"
